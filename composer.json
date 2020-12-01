@@ -1,0 +1,28 @@
+{
+    "name": "ademozmermer/youtubemp3",
+    "description": "Youtube mp3 downloader",
+    "type": "package",
+    "license": "MIT",
+    "keywords": [
+        "youtube",
+        "youtube-dl",
+        "mp3 converter"
+    ],
+    "authors": [
+        {
+            "name": "Adem Özmermer",
+            "email": "ademozmermer27@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdemOzmermer\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
